@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sushi & Wok 11 – Luleå</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-main">Sushi & Wok</span>
+        <span class="nav__logo-num">11</span>
+      </a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#meny">Meny</a></li>
+          <li><a href="#oppettider">Öppettider</a></li>
+          <li><a href="#om-oss">Om oss</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__content">
+      <p class="hero__tagline">Nygatan 11 · Luleå</p>
+      <h1 class="hero__title">Sushi <em>&</em> Wok</h1>
+      <p class="hero__subtitle">Färsk sushi, smakrika wok-rätter och asiatisk fusion – mitt i Luleå</p>
+      <div class="hero__cta">
+        <a href="#meny" class="btn btn--primary">Se meny</a>
+        <a href="tel:+46730578888" class="btn btn--outline">📞 Ring & beställ</a>
+      </div>
+    </div>
+    <div class="hero__deco">
+      <div class="hero__circle hero__circle--1"></div>
+      <div class="hero__circle hero__circle--2"></div>
+      <div class="hero__wave"></div>
+    </div>
+  </section>
+
+  <!-- Badges -->
+  <div class="badges">
+    <div class="container badges__inner">
+      <div class="badge">🍣 Färsk sushi dagligen</div>
+      <div class="badge">⭐ 4.3 – 4.5 stjärnor</div>
+      <div class="badge">🥡 Takeaway & lunchbuffé</div>
+      <div class="badge">🔥 Asiatisk fusion</div>
+    </div>
+  </div>
+
+  <!-- Meny -->
+  <section id="meny" class="section section--dark">
+    <div class="container">
+      <span class="section__label">Vad vi serverar</span>
+      <h2 class="section__title section__title--light">Meny</h2>
+
+      <!-- Förrätter -->
+      <div class="menu__block">
+        <h3 class="menu__block-title">
+          <span class="menu__block-icon">🥟</span> Förrätter
+        </h3>
+        <div class="menu__list">
+          <div class="menu__row"><span>Vegetariska Vårrulle</span><span>från 69 kr</span></div>
+          <div class="menu__row"><span>Köttfärs Vårrulle</span><span>från 69 kr</span></div>
+          <div class="menu__row"><span>Peking Soppa</span><span>från 69 kr</span></div>
+          <div class="menu__row"><span>Vitlöksbröd</span><span>från 69 kr</span></div>
+          <div class="menu__row"><span>Edamame</span><span>från 69 kr</span></div>
+          <div class="menu__row"><span>Misosoppa</span><span>från 69 kr</span></div>
+        </div>
+      </div>
+
+      <!-- Ris & Nudlar -->
+      <div class="menu__block">
+        <h3 class="menu__block-title">
+          <span class="menu__block-icon">🍜</span> Ris & Nudlar
+        </h3>
+        <div class="menu__cards">
+          <div class="menu__card">
+            <h4>Stekta Nudlar – Blandade Grönsaker</h4>
+            <p>Stekta nudlar med blandade grönsaker, serveras med ris för en smakrik måltid.</p>
+            <span class="menu__price">från 149 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Stekta Nudlar med Kyckling</h4>
+            <p>Wokade nudlar med mört kycklingkött och grönsaker.</p>
+            <span class="menu__price">från 149 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Stekt Ris med Kyckling</h4>
+            <p>Klassiskt stekt ris med kyckling och asiatiska kryddor.</p>
+            <span class="menu__price">från 149 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Stekt Ris – Blandade Grönsaker</h4>
+            <p>Vegetarisk variant med wokade grönsaker och jasminris.</p>
+            <span class="menu__price">från 149 kr</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Combo -->
+      <div class="menu__block">
+        <h3 class="menu__block-title">
+          <span class="menu__block-icon">🍱</span> Combo
+        </h3>
+        <div class="menu__cards">
+          <div class="menu__card">
+            <h4>Combo Stekta Nudlar</h4>
+            <p>Serveras med kyckling och friterade vegetariska vårrullar.</p>
+            <span class="menu__price">från 169 kr</span>
+          </div>
+          <div class="menu__card menu__card--popular">
+            <div class="menu__card-badge">#3 mest gillade</div>
+            <h4>Combo Chili Kyckling & Friterad Räkor</h4>
+            <p>Kryddig kyckling med friterade räkor, serveras med ris och fräscha grönsaker.</p>
+            <span class="menu__price">från 169 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Combo Biff med Lök</h4>
+            <p>Serveras med purjolök och friterad kyckling.</p>
+            <span class="menu__price">från 169 kr</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sushi -->
+      <div class="menu__block">
+        <h3 class="menu__block-title">
+          <span class="menu__block-icon">🍣</span> Sushi
+        </h3>
+        <div class="menu__cards menu__cards--sushi">
+          <div class="menu__card">
+            <h4>Liten Sushi <span class="menu__pcs">8 st</span></h4>
+            <p>2 lax, 2 avokado och 4 ruller.</p>
+            <span class="menu__price">från 129 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Vego Sushirulle <span class="menu__pcs">10 st</span></h4>
+            <p>Serveras med avokado, tofu och gurka.</p>
+            <span class="menu__price">från 149 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Mellan Sushi <span class="menu__pcs">11 st</span></h4>
+            <p>3 lax, 1 krabba, 1 avokado, 2 räkor och 4 ruller.</p>
+            <span class="menu__price">från 159 kr</span>
+          </div>
+          <div class="menu__card menu__card--popular">
+            <div class="menu__card-badge menu__card-badge--gold">#1 mest gillade</div>
+            <h4>Spicy Californiarulle <span class="menu__pcs">10 st</span></h4>
+            <p>Serveras med purjolök, avokado, krabba och lax.</p>
+            <span class="menu__price">från 159 kr</span>
+          </div>
+          <div class="menu__card menu__card--popular">
+            <div class="menu__card-badge">#5 mest gillade</div>
+            <h4>Philadelphiarulle <span class="menu__pcs">10 st</span></h4>
+            <p>Serveras med lax, purjolök, ost och avokado.</p>
+            <span class="menu__price">från 159 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Tempurarulle <span class="menu__pcs">10 st</span></h4>
+            <p>Serveras med friterade räkor, avokado, ost och lax.</p>
+            <span class="menu__price">från 159 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Krispigarulle <span class="menu__pcs">10 st</span></h4>
+            <p>Serveras med sallad, kokt lax, krabba och morot.</p>
+            <span class="menu__price">från 159 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Avokadorulle <span class="menu__pcs">10 st</span></h4>
+            <p>Serveras med friterade räkor och avokado.</p>
+            <span class="menu__price">från 159 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Friterad Maki</h4>
+            <p>Serveras med lax, krabba, avokado och purjolök.</p>
+            <span class="menu__price">från 159 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Luleå Maki <span class="menu__pcs">10 st</span></h4>
+            <p>Serveras med avokado, lax och mango.</p>
+            <span class="menu__price">från 159 kr</span>
+          </div>
+          <div class="menu__card menu__card--popular">
+            <div class="menu__card-badge menu__card-badge--gold">#2 mest gillade</div>
+            <h4>Stora Sushi <span class="menu__pcs">15 st</span></h4>
+            <p>4 lax, 2 krabba, 2 avokado, 2 räkor och 5 ruller.</p>
+            <span class="menu__price">från 179 kr</span>
+          </div>
+          <div class="menu__card menu__card--family">
+            <h4>Familjesushi <span class="menu__pcs">30 st</span></h4>
+            <p>5 lax, 5 halstrad lax, 3 krabba, 4 avokado, 3 räkor och 10 ruller.</p>
+            <span class="menu__price">från 369 kr</span>
+          </div>
+          <div class="menu__card menu__card--family">
+            <h4>Familjesushi <span class="menu__pcs">50 st</span></h4>
+            <p>10 lax, 10 halstrad lax, 5 krabba, 5 avokado, 5 räkor och 15 ruller.</p>
+            <span class="menu__price">från 609 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Nigiri <span class="menu__pcs">1 st</span></h4>
+            <p>Välj ditt favoritpålägg.</p>
+            <span class="menu__price">från 25 kr</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Smårätter -->
+      <div class="menu__block">
+        <h3 class="menu__block-title">
+          <span class="menu__block-icon">🥢</span> Smårätter
+        </h3>
+        <div class="menu__cards">
+          <div class="menu__card">
+            <h4>Fyra Smårätter</h4>
+            <p>Friterad kyckling, friterade räkor, biff med lök, purjolök och curry kyckling.</p>
+            <span class="menu__price">från 169 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Tre Smårätter</h4>
+            <p>Friterad kyckling, friterade räkor, biff med lök och purjolök.</p>
+            <span class="menu__price">från 169 kr</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Varmrätter -->
+      <div class="menu__block">
+        <h3 class="menu__block-title">
+          <span class="menu__block-icon">🔥</span> Varmrätter
+        </h3>
+        <div class="menu__list">
+          <div class="menu__row"><span>Friterad Kyckling</span><span>från 159 kr</span></div>
+          <div class="menu__row"><span>Friterad Kyckling med Sötsur</span><span>från 159 kr</span></div>
+          <div class="menu__row"><span>Chili Kyckling</span><span>från 159 kr</span></div>
+          <div class="menu__row menu__row--popular">
+            <span>Kyckling med Cashewnötter <em>#4 mest gillade</em></span>
+            <span>från 159 kr</span>
+          </div>
+          <div class="menu__row"><span>Biff med Lök & Purjolök</span><span>från 159 kr</span></div>
+          <div class="menu__row"><span>Chili Biff</span><span>från 159 kr</span></div>
+          <div class="menu__row"><span>Vitlök Biff</span><span>från 159 kr</span></div>
+          <div class="menu__row"><span>Thai Kyckling med Röd Curry</span><span>från 159 kr</span></div>
+          <div class="menu__row"><span>Biff med Bambuskott</span><span>från 159 kr</span></div>
+          <div class="menu__row"><span>Kuilin Biff</span><span>från 159 kr</span></div>
+          <div class="menu__row"><span>Kuilin Kyckling</span><span>från 159 kr</span></div>
+          <div class="menu__row"><span>New York Kyckling (Nötter)</span><span>från 159 kr</span></div>
+        </div>
+      </div>
+
+      <!-- Drycker -->
+      <div class="menu__block">
+        <h3 class="menu__block-title">
+          <span class="menu__block-icon">🥤</span> Drycker
+        </h3>
+        <div class="menu__list menu__list--drinks">
+          <div class="menu__row"><span>Pepsi 33 cl</span><span>25 kr</span></div>
+          <div class="menu__row"><span>Pepsi Max 33 cl</span><span>25 kr</span></div>
+          <div class="menu__row"><span>Loka Naturell 33 cl</span><span>22 kr</span></div>
+          <div class="menu__row"><span>Zingo 33 cl</span><span>25 kr</span></div>
+          <div class="menu__row"><span>7up 33 cl</span><span>25 kr</span></div>
+          <div class="menu__row"><span>Trocadero 33 cl</span><span>25 kr</span></div>
+          <div class="menu__row"><span>Trocadero Zero 33 cl</span><span>25 kr</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Öppettider -->
+  <section id="oppettider" class="section section--light">
+    <div class="container container--narrow">
+      <span class="section__label">När vi är öppna</span>
+      <h2 class="section__title">Öppettider</h2>
+      <div class="hours__table">
+        <div class="hours__row">
+          <span class="hours__day">Måndag – Fredag</span>
+          <span class="hours__divider"></span>
+          <span class="hours__time">11:00 – 14:30</span>
+        </div>
+        <div class="hours__row">
+          <span class="hours__day">Lördag</span>
+          <span class="hours__divider"></span>
+          <span class="hours__time">12:00 – 15:00</span>
+        </div>
+        <div class="hours__row hours__row--closed">
+          <span class="hours__day">Söndag</span>
+          <span class="hours__divider"></span>
+          <span class="hours__time hours__time--closed">Stängt</span>
+        </div>
+      </div>
+      <p class="hours__note">Vi erbjuder takeaway och lunchbuffé under öppettider.</p>
+    </div>
+  </section>
+
+  <!-- Om oss -->
+  <section id="om-oss" class="section section--ink">
+    <div class="container container--narrow">
+      <span class="section__label section__label--red">Vår historia</span>
+      <h2 class="section__title section__title--light">Om oss</h2>
+      <div class="about__body">
+        <p>Sushi & Wok 11 är Luleås destination för autentisk asiatisk mat. Vi kombinerar traditionellt japanskt sushihantverk med smakrika wok-rätter och asiatisk fusion – allt under ett tak på Nygatan 11.</p>
+        <p>Varje dag förbereder vi färsk sushi med noggrant utvalda råvaror. Hos oss hittar du allt från klassiska rullar till signaturrätter som Spicy Californiarulle och Luleå Maki – skapad just för vår stad.</p>
+        <p>Välkommen för lunch, takeaway eller när du bara vill ha något gott och snabbt.</p>
+      </div>
+      <div class="about__values">
+        <div class="about__value">
+          <strong>🍣</strong>
+          <em>Färsk sushi</em>
+          <span>Tillagad dagligen</span>
+        </div>
+        <div class="about__value">
+          <strong>⭐</strong>
+          <em>4.3–4.5</em>
+          <span>Betyg från gäster</span>
+        </div>
+        <div class="about__value">
+          <strong>🥡</strong>
+          <em>Takeaway</em>
+          <span>Snabbt & enkelt</span>
+        </div>
+        <div class="about__value">
+          <strong>🌏</strong>
+          <em>Asian Fusion</em>
+          <span>Japan · Thailand · Kina</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt" class="section section--dark">
+    <div class="container container--narrow">
+      <span class="section__label section__label--red">Hitta oss</span>
+      <h2 class="section__title section__title--light">Kontakt</h2>
+
+      <div class="contact__grid">
+        <div class="contact__item">
+          <div class="contact__icon">📍</div>
+          <div>
+            <strong>Adress</strong>
+            <p>Nygatan 11<br>972 32 Luleå</p>
+          </div>
+        </div>
+        <div class="contact__item">
+          <div class="contact__icon">📞</div>
+          <div>
+            <strong>Telefon</strong>
+            <p><a href="tel:+46730578888">073-057 88 88</a></p>
+          </div>
+        </div>
+        <div class="contact__item">
+          <div class="contact__icon">🗺️</div>
+          <div>
+            <strong>Google Maps</strong>
+            <p><a href="https://maps.google.com/?q=Nygatan+11+Luleå" target="_blank" rel="noopener">Hitta oss på Google Maps →</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__actions">
+        <a href="tel:+46730578888" class="btn btn--primary">📞 Ring & beställ</a>
+        <a href="https://www.foodora.se" target="_blank" rel="noopener" class="btn btn--foodora">🛵 Beställ via Foodora</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 Sushi & Wok 11 · Nygatan 11, 972 32 Luleå · 073-057 88 88</p>
+    </div>
+  </footer>
+
+</body>
+</html>
